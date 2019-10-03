@@ -29,7 +29,7 @@ CREATE EXTENSION nextid;
 Generate ID with extension:
 
 ```sql
-SELECT c_next_id(NEXTVAL('id_seq'), 1) FROM generate_series(1, 100)
+SELECT c_next_id(NEXTVAL('id_seq'), 1) FROM generate_series(1, 100);
 ```
 
 ## License

@@ -1,0 +1,3 @@
+CREATE OR REPLACE FUNCTION c_next_id(INT8, INT4) RETURNS INT8
+    AS '$libdir/nextid', 'next_id'
+LANGUAGE C STRICT;

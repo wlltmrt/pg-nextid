@@ -20,7 +20,7 @@ make clean
 
 ## Usage
 
-Install the extension in your database:
+Create extension in your database:
 
 ```sql
 CREATE EXTENSION nextid;

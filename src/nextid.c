@@ -15,7 +15,7 @@ Datum next_id(PG_FUNCTION_ARGS) {
     int64 seq_id = PG_GETARG_INT64(0);
     int32 shard_id = PG_GETARG_INT32(1);
 
-    PG_RETURN_INT64(((current_timestamp() << 23) | (shard_id << 10)) | (seq_id % 1024));
+    PG_RETURN_INT64(((current_timestamp() - OUR_EPOCH) << 23) | (shard_id << 10) | (seq_id % 1024));
 }
 
 int64 current_timestamp(void) {

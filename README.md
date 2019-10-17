@@ -1,7 +1,8 @@
 # NextID Postgres extension
 
 [![Build Status](https://travis-ci.org/wellmart/pg-nextid.svg?branch=master)](https://travis-ci.org/wellmart/pg-nextid)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+[![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 Postgres Extension for ID generation based on instagram ID. check out the post: [instagram-engineering.com](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c).
 

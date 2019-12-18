@@ -1,4 +1,4 @@
-comment = 'ID generation based on instagram ID'
+comment = 'ID generation based on Instagram ID'
 default_version = '0.1'
 module_pathname = '$libdir/nextid'
 relocatable = true
